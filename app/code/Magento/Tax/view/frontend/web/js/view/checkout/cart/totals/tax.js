@@ -21,7 +21,7 @@ define([
          * @override
          */
         ifShowValue: function () {
-            if (this.getPureValue() === 0) {
+            if (parseFloat(this.getPureValue()) === 0) {
                 return isZeroTaxDisplayed;
             }
 
